@@ -11,14 +11,14 @@ import {
   FiVolume2,
   FiExternalLink
 } from "react-icons/fi";
-import Logo from "../../assets/ONEP_logo2.jpg";
+import Logo from "../../assets/logo.jpg";
 import MesDocuments from "../pages/MesDocsModale";
 
 const SUGGESTIONS = [
-  "Montre-moi les rapports d'audit des installations AEP pour l'année 2023.",
-  "Quels sont les plans validés pour la région Casablanca ?",
-  "Trouve les contrats de maintenance signés avec les fournisseurs.",
-  "Donne-moi le résumé des projets AEP en cours dans la zone nord.",
+  "Prompt 1", 
+  "Prompt 2",
+  "Prompt 3", 
+  "Prompt 4"
 ];
 
 const getFileTypeFromName = (fileName) => {
@@ -331,8 +331,7 @@ const Chat = ({
           <div className="flex flex-col justify-center items-center text-center h-full">
             <img src={Logo} alt="Logo AEP" className="w-20 h-20 mb-6" />
             <p className="mb-6 text-gray-600 max-w-md">
-              Bienvenue sur le portail intelligent de gestion documentaire de
-              l'ONEE. Choisissez une question ou commencez à écrire.
+              Message to display 
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xl w-full">
               {SUGGESTIONS.map((suggestion, idx) => (
