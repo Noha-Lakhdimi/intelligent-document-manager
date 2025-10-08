@@ -1,0 +1,22 @@
+# Environnements virtuels
+env/
+
+# Fichiers système Windows
+desktop.ini
+
+# Backend
+backend/chroma_uploads/
+backend/corbeille/
+backend/uploads/
+backend/modele_ner_dor/
+backend/data/
+backend/*.json
+backend/docs/
+
+# Frontend
+frontend/node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
