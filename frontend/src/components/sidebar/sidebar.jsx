@@ -1,7 +1,7 @@
 import React from 'react'
 import { FiHome, FiFileText, FiMessageCircle, FiTrash2 } from "react-icons/fi"
 import { useLocation, Link } from 'react-router-dom'
-import Logo from "../../assets/ONEP_logo2.jpg"
+import Logo from "../../assets/logo.jpg"
 
 const Sidebar = () => {
   const location = useLocation();
